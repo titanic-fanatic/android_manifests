@@ -1,31 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="titanic-fanatic/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" revision="cm-11.0" />
-  <project name="titanic-fanatic/android_device_samsung_celox-common" path="device/samsung/celox-common" remote="github" revision="cm-11.0" />
-  <project name="titanic-fanatic/android_device_samsung_celoxhd" path="device/samsung/celoxhd" remote="github" revision="cm-11.0" />
-  <project name="titanic-fanatic/android_vendor_samsung_celoxhd" path="vendor/samsung/celoxhd" remote="github" revision="cm-11.0" />
-  <project name="titanic-fanatic/android_kernel_samsung_msm8660-common" path="kernel/samsung/msm8660-common" remote="github" revision="cm-11.0" />
+  <project name="titanic-fanatic/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="gh" revision="cm-11.0" />
+  <project name="titanic-fanatic/android_device_samsung_celox-common" path="device/samsung/celox-common" remote="gh" revision="cm-11.0" />
+  <project name="titanic-fanatic/carbon_device_samsung_celoxhd" path="device/samsung/celoxhd" remote="gh" revision="kk" />
+  <project name="titanic-fanatic/android_vendor_samsung_celoxhd" path="vendor/samsung/celoxhd" remote="gh" revision="cm-11.0" />
+  <project name="titanic-fanatic/android_kernel_samsung_msm8660-common" path="kernel/samsung/msm8660-common" remote="gh" revision="cm-11.0" />
+  <project name="Hellybean/android_kernel_samsung_msm8660-common" path="kernel/samsung/msm8660-diablo" remote="gh" revision="cm-11.0" />
   
-  <project name="titanic-fanatic/android_kernel_samsung_msm8660-common" path="kernel/samsung/msm8660-new" remote="github" revision="cm-11.0-new" />
-  <project name="bryan2894/android_kernel_samsung_msm8660-common" path="kernel/samsung/msm8660-bryan" remote="github" revision="kitkat" />
-  <project name="CyanogenMod/android_kernel_samsung_msm8660-common" path="kernel/samsung/msm8660-next" remote="github" revision="next" />
-  <project name="sultanxda/sultan-kernel-skyrocket-pure" path="kernel/samsung/msm8660-sultanxda" remote="github" revision="cm-11.0" />
-  
-  <remove-project name="CyanogenMod/android_packages_apps_Settings" />
-  <remove-project name="CyanogenMod/android_bootable_recovery" />
+  <remove-project name="CarbonDev/android_frameworks_base" />
+  <remove-project name="CarbonDev/android_packages_apps_CarbonFibers" />
+  <remove-project name="CarbonDev/android_packages_apps_PerformanceControl" />
+  <remove-project name="CarbonDev/android_packages_apps_Settings" />
+  <remove-project name="CarbonDev/android_packages_apps_ROMStats" />
   <remove-project name="CyanogenMod/android_hardware_qcom_power" />
   
-  <project name="titanic-fanatic/android_device_samsung_msm8660-common" path="device/samsung/msm8660-common" remote="github" revision="cm-11.0" />
-  <project name="titanic-fanatic/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="cm-11.0" />
-  <project name="titanic-fanatic/android_hardware_qcom_power" path="hardware/qcom/power" remote="github" revision="cm-11.0" />
-  
-  <project name="titanic-fanatic/android_build_scripts" path="buildtools" remote="github" revision="cm-11.0">
+  <project name="titanic-fanatic/android_device_samsung_msm8660-common" path="device/samsung/msm8660-common" remote="gh" revision="cm-11.0" />
+  <project name="titanic-fanatic/android_hardware_qcom_power" path="hardware/qcom/power" remote="gh" revision="cm-11.0" />
+  <project name="titanic-fanatic/carbon_packages_apps_Settings" path="packages/apps/Settings" remote="gh" revision="kk" />
+  <project name="titanic-fanatic/carbon_packages_apps_CarbonFibers" path="packages/apps/CarbonFibers" remote="gh" revision="kk" />
+  <project name="titanic-fanatic/carbon_packages_apps_PerformanceControl" path="packages/apps/PerformanceControl" remote="gh" revision="kk" />
+  <project name="titanic-fanatic/carbon_frameworks_base" path="frameworks/base" remote="gh" revision="kk" />
+  <project name="titanic-fanatic/android_build_scripts" path="buildtools" remote="gh" revision="carbon-kk">
     <copyfile dest="start_build.sh" src="start_build.sh" />
+    <copyfile dest="fixzip.sh" src="fixzip.sh" />
   </project>
   
-  <!-- Philz Touch Recovery -->
-  <project name="titanic-fanatic/philz_touch_cwm6" path="bootable/recovery" remote="github" revision="cm-11.0" />
-  
-  <project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="cm-11.0" />
-  <project name="CyanogenMod/android_device_samsung_skyrocket" path="device/samsung/skyrocket" remote="github" revision="cm-11.0" />
+  <project name="CarbonDev/android_device_samsung_skyrocket" path="device/samsung/skyrocket" remote="gh" revision="kk" />
 </manifest>
