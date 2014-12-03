@@ -5,7 +5,6 @@
   <project name="titanic-fanatic/carbon_device_samsung_celoxhd" path="device/samsung/celoxhd" remote="gh" revision="kk" />
   <project name="titanic-fanatic/android_vendor_samsung_celoxhd" path="vendor/samsung/celoxhd" remote="gh" revision="cm-11.0" />
   <project name="titanic-fanatic/android_kernel_samsung_msm8660-common" path="kernel/samsung/msm8660-common" remote="gh" revision="cm-11.0" />
-  <project name="Hellybean/android_kernel_samsung_msm8660-common" path="kernel/samsung/msm8660-diablo" remote="gh" revision="cm-11.0" />
   
   <remove-project name="CarbonDev/android_frameworks_base" />
   <remove-project name="CarbonDev/android_packages_apps_CarbonFibers" />
@@ -24,6 +23,4 @@
     <copyfile dest="start_build.sh" src="start_build.sh" />
     <copyfile dest="fixzip.sh" src="fixzip.sh" />
   </project>
-  
-  <project name="CarbonDev/android_device_samsung_skyrocket" path="device/samsung/skyrocket" remote="gh" revision="kk" />
 </manifest>
