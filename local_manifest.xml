@@ -14,10 +14,12 @@
   <remove-project name="CyanogenMod/android_packages_apps_Settings" />
   <remove-project name="CyanogenMod/android_bootable_recovery" />
   <remove-project name="CyanogenMod/android_hardware_qcom_power" />
+  <remove-project name="CyanogenMod/android_system_core" />
   
   <project name="titanic-fanatic/android_device_samsung_msm8660-common" path="device/samsung/msm8660-common" remote="github" revision="cm-11.0" />
   <project name="titanic-fanatic/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="cm-11.0" />
   <project name="titanic-fanatic/android_hardware_qcom_power" path="hardware/qcom/power" remote="github" revision="cm-11.0" />
+  <project name="titanic-fanatic/android_system_core" path="system/core" remote="github" revision="cm-11.0" />
   
   <project name="titanic-fanatic/android_build_scripts" path="buildtools" remote="github" revision="cm-11.0">
     <copyfile dest="start_build.sh" src="start_build.sh" />
