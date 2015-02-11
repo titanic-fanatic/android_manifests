@@ -7,18 +7,23 @@
   <project name="titanic-fanatic/android_kernel_samsung_msm8660-common" path="kernel/samsung/msm8660-common" remote="gh" revision="cm-11.0" />
   
   <remove-project name="CarbonDev/android_frameworks_base" />
+  <remove-project name="CarbonDev/android_packages_apps_CarbonDelta" />
   <remove-project name="CarbonDev/android_packages_apps_CarbonFibers" />
   <remove-project name="CarbonDev/android_packages_apps_PerformanceControl" />
   <remove-project name="CarbonDev/android_packages_apps_Settings" />
   <remove-project name="CarbonDev/android_packages_apps_ROMStats" />
+  <remove-project name="CarbonDev/android_system_core" />
+  <remove-project name="CarbonDev/android_vendor_carbon" />
   <remove-project name="CyanogenMod/android_hardware_qcom_power" />
   
   <project name="titanic-fanatic/android_device_samsung_msm8660-common" path="device/samsung/msm8660-common" remote="gh" revision="cm-11.0" />
+  <project name="titanic-fanatic/android_vendor_carbon" path="vendor/carbon" remote="gh" revision="kk" />
   <project name="titanic-fanatic/android_hardware_qcom_power" path="hardware/qcom/power" remote="gh" revision="cm-11.0" />
   <project name="titanic-fanatic/carbon_packages_apps_Settings" path="packages/apps/Settings" remote="gh" revision="kk" />
   <project name="titanic-fanatic/carbon_packages_apps_CarbonFibers" path="packages/apps/CarbonFibers" remote="gh" revision="kk" />
   <project name="titanic-fanatic/carbon_packages_apps_PerformanceControl" path="packages/apps/PerformanceControl" remote="gh" revision="kk" />
   <project name="titanic-fanatic/carbon_frameworks_base" path="frameworks/base" remote="gh" revision="kk" />
+  <project name="titanic-fanatic/carbon_system_core" path="system/core" remote="gh" revision="kk" />
   <project name="titanic-fanatic/android_build_scripts" path="buildtools" remote="gh" revision="carbon-kk">
     <copyfile dest="start_build.sh" src="start_build.sh" />
     <copyfile dest="fixzip.sh" src="fixzip.sh" />
